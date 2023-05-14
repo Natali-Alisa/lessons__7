@@ -1,0 +1,251 @@
+@import url('./_normalize.css');
+@import url('./_vars.css');
+
+html,
+body {
+    font-size: var(--main-font-size);
+    font-family: var(--main-font-family);
+    margin: 0;
+    color: var(--main-color-text);
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+* {margin: 0;}
+/* --------- Header --------- */
+
+.nav {
+    padding: 28px 0;
+    border-bottom: 1px solid #828282;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color:  #828282;
+}
+
+a:hover {
+    color: #070707;
+}
+
+/* ------------------------ Main ----------------- */
+.section2 {
+    background: var(--background-additional);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.first {
+    max-width: 970px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+
+.about, .portfolio {
+    font-weight: 700;
+    font-size: 1.888em;
+    line-height: 1.35;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.text{
+    max-width: 480px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.text>p {
+    margin-bottom: 30px;
+}
+
+.text p:last-child {
+    margin-bottom: 100px;
+}
+
+.container2 {
+    max-width: 970px;
+    margin: 0 auto;
+    border: 1px solid #070707;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 25px;
+}
+.icon-star {
+    width: 26px;
+    height: 26px;
+    display:inline-block;
+    text-align: center;
+}
+
+.skills {
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px; 
+
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+}
+.skills>h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.background {
+    background: var(--background-additional);
+}
+
+.block {
+    display: inline-block;
+    align-items: center;
+    width: calc(25% - 4px);
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+
+}
+.block h5 {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #828282;
+    text-align: center;
+}
+
+.portfolio {
+    margin-top: 100px ;
+}
+.text2 {
+    max-width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 25px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.text3 {
+    max-width: 260px;
+    height: 24px;
+    margin: 0 auto;
+    line-height: 25px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.contacts {
+    text-align: center;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.contacts>h2 {
+    max-width: 150px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.contacts+p {
+    max-width: 280px;
+    margin: 0 auto;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.container-button {
+    max-width: 310px;
+    margin: 0 auto;
+}
+
+.button {
+    max-width: 180px;
+    height: 44px;    
+    background: #070707;
+    color: #FFFFFF;
+    border-radius: 22px;
+    margin: 0 auto;
+}
+.button>p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.container-litl {
+    max-width: 200px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 100px;
+}
+.litlicon {
+    display: inline-block;
+    width: calc(25% - 4px);
+    margin-bottom: 60px;
+}
+
+.litlicon img {
+    width: 40px;
+    height: 40px;
+}
+
+li {
+    display: inline-block;
+
+}
+
+.text-header {
+    text-align: center;
+    color: cornflowerblue;
+    font-weight: 700;
+}
